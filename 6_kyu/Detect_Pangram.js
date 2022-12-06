@@ -13,7 +13,7 @@ let isPangram = string => {
 }
 
 // variant two
-let isPangram = string => {
+let isPangrams = string => {
   const alphabet = "abcdefghijklmnopqrstuvwxyz";
   const regex = /\s|[\,\.]|\d/g;
   const lowercase = string.toLowerCase().replace(regex, "");
