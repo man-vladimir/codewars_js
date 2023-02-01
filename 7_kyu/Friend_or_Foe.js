@@ -11,3 +11,4 @@ let friend = friends => {
 
 // variant two
 let friendTwo = friends => friends.filter(el => el.length === 4);
+
